@@ -9,7 +9,7 @@ import SignUp from '../pages/SignUp/SignUp'
 import Classes from "../pages/Classes/Classes";
 import Pricing from "../components/Pricing/Pricing";
 import Blog from "../pages/Blog/Blog";
-import About from "../components/About/About";
+import About from "../pages/About/About";
 import Schedule from "../Pages/Schedule/Schedule";
 import Monday from "../Pages/Schedule/Monday";
 import Tuesday from "../Pages/Schedule/Tuesday";
