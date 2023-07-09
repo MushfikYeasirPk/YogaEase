@@ -62,7 +62,7 @@ const router = createBrowserRouter([
       {
         path: "schedule",
         element: <Schedule></Schedule>,
-        children:[
+        children: [
           {
             path: "monday",
             element: <Monday></Monday>
@@ -93,26 +93,26 @@ const router = createBrowserRouter([
           },
         ]
       },
-      
+
       {
         path: "gallery",
-        element: <Gallery></Gallery>
+        element: <Gallery></Gallery>,
+        children: [
+          {
+            path: "page-1",
+            element: <GalleryPage1></GalleryPage1>
+          },
+          {
+            path: "page-2",
+            element: <GalleryPage2></GalleryPage2>
+          },
+        ]
       },
-      {
-        path: "gallery/page-1",
-        element: <GalleryPage1></GalleryPage1>
-      },
-      {
-        path: "gallery/page-2",
-        element: <GalleryPage2></GalleryPage2>
-      },
-
-      
     ]
 
 
   },
-  
+
 
 ]);
 
