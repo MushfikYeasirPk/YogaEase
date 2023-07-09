@@ -61,46 +61,49 @@ const router = createBrowserRouter([
       },
       {
         path: "schedule",
-        element: <Schedule></Schedule>
+        element: <Schedule></Schedule>,
+        children:[
+          {
+            path: "monday",
+            element: <Monday></Monday>
+          },
+          {
+            path: "tuesday",
+            element: <Tuesday></Tuesday>
+          },
+          {
+            path: "wednesday",
+            element: <Wednesday></Wednesday>
+          },
+          {
+            path: "thursday",
+            element: <Thursday></Thursday>
+          },
+          {
+            path: "friday",
+            element: <Friday></Friday>
+          },
+          {
+            path: "saturday",
+            element: <Saturday></Saturday>
+          },
+          {
+            path: "sunday",
+            element: <Sunday></Sunday>
+          },
+        ]
       },
-      {
-        path: "monday",
-        element: <Monday></Monday>
-      },
-      {
-        path: "tuesday",
-        element: <Tuesday></Tuesday>
-      },
-      {
-        path: "wednesday",
-        element: <Wednesday></Wednesday>
-      },
-      {
-        path: "thursday",
-        element: <Thursday></Thursday>
-      },
-      {
-        path: "friday",
-        element: <Friday></Friday>
-      },
-      {
-        path: "saturday",
-        element: <Saturday></Saturday>
-      },
-      {
-        path: "sunday",
-        element: <Sunday></Sunday>
-      },
+      
       {
         path: "gallery",
         element: <Gallery></Gallery>
       },
       {
-        path: "page-1",
+        path: "gallery/page-1",
         element: <GalleryPage1></GalleryPage1>
       },
       {
-        path: "page-2",
+        path: "gallery/page-2",
         element: <GalleryPage2></GalleryPage2>
       },
 
