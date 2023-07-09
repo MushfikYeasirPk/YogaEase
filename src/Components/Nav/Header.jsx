@@ -92,7 +92,7 @@ const Header = () => {
                         <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
                         <li><NavLink to='/gallery/page-1' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Gallery</NavLink></li>
                         
-                        <li><NavLink to='/schedule' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Schefule</NavLink></li>
+                        <li><NavLink to='/schedule/monday' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Schefule</NavLink></li>
                         <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Blog</NavLink></li>
                         <li><NavLink to='/pricing' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Pricing</NavLink></li>
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
