@@ -7,7 +7,7 @@ import Contact from '../pages/Contact/Contact'
 import Login from '../pages/Login/Login'
 import SignUp from '../pages/SignUp/SignUp'
 import Classes from "../pages/Classes/Classes";
-import Pricing from "../components/Pricing/Pricing";
+import Pricing from "../pages/Price";
 import Blog from "../pages/Blog/Blog";
 import About from "../pages/About/About";
 import Schedule from "../Pages/Schedule/Schedule";
