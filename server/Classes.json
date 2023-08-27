@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Restorative yoga",
+        "image": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYSUyMHBvc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Mia Thomas",
+        "availableSeats": "7",
+        "price": "24"
+    },
+    {
+        "name": "Yin yoga",
+        "image": "https://images.unsplash.com/photo-1599447332412-6bc6830c815a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eW9nYSUyMHBvc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "David Brown",
+        "availableSeats": "4",
+        "price": "45"
+    },
+    {
+        "name": "Course C",
+        "image": "https://images.unsplash.com/photo-1612157777902-5382bc6e864b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8eW9nYSUyMHBvc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Sophia Taylor",
+        "availableSeats": "9",
+        "price": "80"
+    },
+    {
+        "name": "Ashtanga yoga",
+        "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "William Anderson",
+        "availableSeats": "13",
+        "price": "56"
+    },
+    {
+        "name": "Ashtanga yoga",
+        "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Sophia Taylor",
+        "availableSeats": "12",
+        "price": "34"
+    },
+    {
+        "name": "Kundalini yoga",
+        "image": "https://images.unsplash.com/photo-1599447292325-2cffaa79bcbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "William Anderson",
+        "availableSeats": "5",
+        "price": "55"
+    },
+    {
+        "name": "Course G",
+        "image": "https://images.unsplash.com/photo-1593810450979-79e8584f76b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Olivia Martinez",
+        "availableSeats": "10",
+        "price": "56"
+    },
+    {
+        "name": "Iyengar yoga",
+        "image": "https://images.unsplash.com/photo-1597586594276-456f8c50b82d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Robert Wilson",
+        "availableSeats": "16",
+        "price": "67"
+    },
+    {
+        "name": "Hatha yoga",
+        "image": "https://images.unsplash.com/photo-1593810451056-0acc1fad48c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "Jane Smith",
+        "availableSeats": "18",
+        "price": "45"
+    },
+    {
+        "name": "Vinyasa yoga",
+        "image": "https://images.unsplash.com/photo-1603988533324-9e39be986394?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHlvZ2ElMjBwb3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "instructorName": "John Doe",
+        "availableSeats": "15",
+        "price": "78"
+    }
+]
