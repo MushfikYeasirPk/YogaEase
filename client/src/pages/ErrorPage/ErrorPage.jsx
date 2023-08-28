@@ -1,32 +1,28 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Error from "../../Images/error.png";
-const ErrorPage = () => {
-  return (
-    <div className="bg-gray-800">
-    <div className="flex items-center justify-center pt-12 pb-20">
-      <div className="bg-gray-100 rounded-2xl flex items-center justify-center mx-4 md:w-2/3 ">
-        <div className="py-16">
-          <img
-            width="500"
-            height="370"
-            className="px-4"
-            src={Error}
-            alt="NotFound"
-          />
+import { Link, useRouteError } from 'react-router-dom'
 
-          <p className="px-4 pb-10 text-base leading-none text-center text-gray-600">
-            We Cannot Find The Page You Are Looking For{" "}
+const ErrorPage = () => {
+  const { error, status } = useRouteError()
+  return (
+    <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
+      <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
+        <figure><img className='w-80 h-80' src="https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg?w=2000" alt="" /></figure>
+        <div className='max-w-md text-center'>
+          <h2 className='mb-8 font-extrabold text-9xl text-gray-600'>
+            <span className='sr-only'>Error</span> {status || 404}
+          </h2>
+          <p className='text-2xl font-semibold md:text-3xl mb-8'>
+            {error?.message}
           </p>
-          <div className="flex justify-center">
-            <button className="mx-4 h-10 w-44 border rounded-md text-white text-base bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-indigo-800">
-              <Link to="/"> Go Back </Link>
-            </button>
-          </div>
+          <Link
+            to='/'
+            className='px-8 py-3 font-semibold rounded bg-cyan-200 text-gray-900'
+          >
+            Back to homepage
+          </Link>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
   )
 }
 

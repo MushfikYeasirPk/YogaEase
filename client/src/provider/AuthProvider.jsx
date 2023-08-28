@@ -10,7 +10,6 @@ import {
   signInWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
-
 import app from "./../firebase/Firebase.init";
 import { useState } from "react";
 import { useEffect } from "react";
