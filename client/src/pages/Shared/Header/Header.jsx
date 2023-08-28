@@ -51,7 +51,7 @@ const Header = () => {
 
         <div>
 
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-transparent">
                 <div className="flex-none">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
