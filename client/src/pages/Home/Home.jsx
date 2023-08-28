@@ -12,7 +12,6 @@ const Home = () => {
 
   return (
     <div>
-      <p className='text-center text-3xl text-red-300 py-5'>Welcome to MagmaYoga</p>
       <Carousel>
         <div className=''>
             <img src="https://img.freepik.com/free-photo/silhouette-woman-doing-yoga-beach_1286-47.jpg?1&w=740&t=st=1686236003~exp=1686236603~hmac=66079d0a9d838ca5346bcf6164294e7e17a566ae8fea9d120e07db4621904f8f" />
