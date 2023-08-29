@@ -56,7 +56,7 @@ const Register = () => {
                 .then((userCredential) => {
                     const saveUser = { name: data.name, email: data.email }
                            console.log(saveUser);
-                        fetch('http://localhost:5000/users', {
+                        fetch('https://yogaease.vercel.appusers', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

@@ -14,7 +14,7 @@ const ClassCard = ({ sigleClasses }) => {
         console.log(sigleClasses);
         if (user && user.email) {
             const Classes = { clsssigleClassesId: sigleClasses._id, instructorName: sigleClasses.instructorName, image: sigleClasses.image, price: sigleClasses.price, email: user.email, ClassName: sigleClasses.name }
-            fetch('http://localhost:5000/classes', {
+            fetch('https://yogaease.vercel.appclasses', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

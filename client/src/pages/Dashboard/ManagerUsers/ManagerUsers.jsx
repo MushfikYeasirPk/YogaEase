@@ -8,12 +8,12 @@ const ManagerUsers = () => {
     const {data: users = [], refetch} = useQuery({
         queryKey: ['users'],
         queryFn: async() => {
-            const res = await fetch('http://localhost:5000/users');
+            const res = await fetch('https://yogaease.vercel.appusers');
             return res.json();
         }
     })
     const handleMakeAdmin=(singleUser)=>{
-        fetch(`http://localhost:5000/users/admin/${singleUser._id}`, {
+        fetch(`https://yogaease.vercel.appusers/admin/${singleUser._id}`, {
             method: 'PATCH'
         })
         .then(res => res.json())

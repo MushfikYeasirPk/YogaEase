@@ -44,7 +44,7 @@ const AuthProvider = ({ children }) => {
     const unSubscribe = onAuthStateChanged(auth, (loggedInUser) => {
       setUser(loggedInUser);
       if(loggedInUser){
-        axios.post('http://localhost:5000/jwt', {email: loggedInUser.email})
+        axios.post('https://yogaease.vercel.appjwt', {email: loggedInUser.email})
         .then(data =>{
             localStorage.setItem('access-token', data.data.token)
         })

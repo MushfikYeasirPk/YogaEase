@@ -18,7 +18,7 @@ const UseClasses = () => {
     // const {data: menu = [], isLoading: loading, refetch} = useQuery({
     //     queryKey: ['menu'],
     //     queryFn: async() => {
-    //         const res = await fetch('http://localhost:5000/classes');
+    //         const res = await fetch('https://yogaease.vercel.appclasses');
     //         return res.json();
     //     }
     // })

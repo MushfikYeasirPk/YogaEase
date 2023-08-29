@@ -15,7 +15,7 @@ const Home = () => {
     <HomeCausel></HomeCausel>
       <PopularClasses></PopularClasses>
       <PopularInstructors></PopularInstructors>
-      <About></About>
+    
       
 
 

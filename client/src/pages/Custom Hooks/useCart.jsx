@@ -8,7 +8,7 @@ import { AuthContext } from '../../provider/AuthProvider';
 import useAxiosSecure from './useAxiosSecure';
 const useCart = () => {
     // const { user, loading } = useAuth();
-    const {user}=useContext(AuthContext)
+    const { user } = useContext(AuthContext)
     // const token = localStorage.getItem('access-token');
     const [axiosSecure] = useAxiosSecure();
     const { refetch, data: ClassCart = [] } = useQuery({
@@ -19,12 +19,12 @@ const useCart = () => {
             return res.data;
         },
 
-    // queryFn: async () => {
-    //         const res = await fetch(`http://localhost:5000/dashboard?email=${user?.email}`)
-    //         return res.json();
-    //     },
+        // queryFn: async () => {
+        //         const res = await fetch(`http://localhost:5000/dashboard?email=${user?.email}`)
+        //         return res.json();
+        //     },
     })
-    
+
 
     return [ClassCart, refetch]
 

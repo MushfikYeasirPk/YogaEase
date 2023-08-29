@@ -10,7 +10,7 @@ const Classes = () => {
   
     const [Classes, setClasses] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/classes`)
+        fetch(`https://yogaease.vercel.appclasses`)
             .then((res) => res.json())
             .then((result) => {
                 setClasses(result);
