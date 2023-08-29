@@ -30,7 +30,7 @@ const Header = () => {
 
         <div>
 
-            <div className="navbar bg-transparent">
+            <div className="navbar bg-black text-white">
                 <div className="flex-none">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -107,7 +107,13 @@ const Header = () => {
                                 </div>
                             </> :
                             <>
-                                <Link to='/signIn'><button className="btn btn-accent btn-success">Sign in</button></Link>
+                            <ul>
+                                <li>
+
+                                       <Link to='/signIn'><button className=" btn-outline">Sign in</button></Link>
+                                </li>
+                            </ul>
+                             
                             </>
                     }
 
