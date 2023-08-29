@@ -1,5 +1,4 @@
-import { CiLight } from 'react-icons/ci'
-import { MdDarkMode } from 'react-icons/md'
+
 import React, { useContext, useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../provider/AuthProvider';
@@ -7,26 +6,6 @@ import { FaShoppingCart } from 'react-icons/fa';
 import useCart from '../../Custom Hooks/useCart';
 
 const Header = () => {
-
-    const mode = JSON.parse(localStorage.getItem("dark-mode"))
-    const [dark, setDark] = useState(false)
-
-    if (dark) {
-        localStorage.setItem('dark-mode', true)
-    }
-    else {
-        localStorage.setItem('dark-mode', false)
-    }
-
-    // console.log(mode)
-    useEffect(() => {
-        if (!mode) {
-            document.querySelector("html").setAttribute("data-theme", "night")
-        } else {
-            document.querySelector("html").setAttribute("data-theme", "light")
-        }
-    }, [mode])
-
 
     const { user, logOut } = useContext(AuthContext)
     const [userName, setUserName] = useState('');
@@ -136,10 +115,7 @@ const Header = () => {
 
                 </div>
 
-                <div className="flex-none">
-                    <div onClick={() => setDark(!dark)} className='text-2xl p-2 cursor-pointer'>{dark ? <span><MdDarkMode /></span> :
-                        <span><CiLight className='text-yellow-500' /></span>}</div>
-                </div>
+              
             </div>
 
         </div>
