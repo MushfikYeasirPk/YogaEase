@@ -15,7 +15,7 @@ const PopularInstructors = () => {
                 {
                     instructors.slice(0, 6).map((sigleInstructors) =>
                         <div   key={sigleInstructors._id}>
-                            <figure><img src={sigleInstructors.image} alt="Shoes" /></figure>
+                            <figure><img className='h-[300px] w-[500px]'  src={sigleInstructors.image} alt="Shoes" /></figure>
 
                         </div>
                     )}
