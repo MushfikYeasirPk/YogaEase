@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='text-center pb-2 text-xl bg-slate-500  '>
-        <p>Copyright © 2023 - All right reserved by VumPros Industries Ltd</p>
+        <p>Copyright © 2023 - All right reserved by YogaEase Industries Ltd</p>
       </div>
     </div>
   );
