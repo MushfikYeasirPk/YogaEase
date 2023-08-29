@@ -5,7 +5,7 @@ import UseInstructors from '../Custom Hooks/UseInstructors';
 import './PopularInstrcutors.css'
 const PopularInstructors = () => {
     const [instructors] = UseInstructors();
-console.log(instructors);
+// console.log(instructors);
     return (
         <div>
             <div >
