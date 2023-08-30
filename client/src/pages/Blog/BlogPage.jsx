@@ -13,8 +13,8 @@ function BlogPage() {
               <p className=" text-[15px] text-[#646464] pt-8 pb-4">
                 By <b>Admin</b> | {singleBlog.date} | Yoga
               </p>
-              <h2 className="text-[2rem] text-black font-bold mb-6">{singleBlog.title}</h2>
-              <p className="font-medium text-[16px] text-[#646464] mb-2">
+              <h2 className="text-[25px] text-black font-bold mb-6">{singleBlog.title}</h2>
+              <p className="font-medium text-[16px] text-[#646464] mb-2 lg:w-9/12">
                 {singleBlog.description}
               </p>
               <Link to="/contact" className="relative inline-flex items-center justify-start px-6 py-3 mb-5 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group">
