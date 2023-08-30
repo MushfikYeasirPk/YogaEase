@@ -3,7 +3,7 @@ import Register from "../pages/Register/Register";
 import SignIn from "../pages/SignIn/SignIn";
 import Home from "../pages/Home/Home";
 import Main from "../Layout/Main";
-import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Instructors from "../pages/Instructors/Instructors";
 import Classes from "../pages/Classes/Classes";

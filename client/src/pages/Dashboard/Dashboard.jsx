@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
-import useAdmin from '../Custom Hooks/UserAdmin';
-
+import useAdmin from '../../Components/Custom Hooks/UserAdmin'
 const Dashboard = () => {
   // const isAdmin = true;
   const [isAdmin] = useAdmin();

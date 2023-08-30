@@ -1,9 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import About from '../AboutUS/About';
-
-import PopularInstructors from '../Popular Instructors/PopularInstructors';
-import PopularClasses from '../PopularClasses/PopularClasses';
+import PopularInstructors from '../../Components/Popular Instructors/PopularInstructors';
+import PopularClasses from '../../Components/PopularClasses/PopularClasses';
 import HomeCausel from '../../Components/HomeCaousel/HomeCausel';
 import AboutCarts from '../../Components/About/AboutCarts';
 

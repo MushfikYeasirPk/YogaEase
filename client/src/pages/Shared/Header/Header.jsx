@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../provider/AuthProvider';
 import { FaShoppingCart } from 'react-icons/fa';
-import useCart from '../../Custom Hooks/useCart';
+import useCart from '../../../Components/Custom Hooks/useCart'
 
 const Header = () => {
 

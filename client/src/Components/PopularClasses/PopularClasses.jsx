@@ -12,19 +12,19 @@ const PopularClasses = () => {
                     PopClasses.slice(0, 6).map((SingleClass) =>
                         // <div  key={SingleClass._id}>
                         //     <figure><img className='h-[300px] w-[500px]' src={SingleClass.image} alt="Shoes" /></figure>
-                            
+
                         // </div >
 
-<div  className="box">
-<div className="Inscard">
-    <div  className="imgBox">
-        <img src={SingleClass.image} alt="some image" />
-    </div>
-    <div className="details">
-        <h2>{SingleClass.name} </h2>
-    </div>
-</div>
-</div>
+                        <div className="box">
+                            <div className="Inscard">
+                                <div className="imgBox">
+                                    <img src={SingleClass.image} alt="some image" />
+                                </div>
+                                <div className="details">
+                                    <h2>{SingleClass.name} </h2>
+                                </div>
+                            </div>
+                        </div>
 
 
 

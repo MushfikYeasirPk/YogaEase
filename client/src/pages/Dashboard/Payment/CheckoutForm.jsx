@@ -3,7 +3,7 @@ import { useContext, useEffect } from "react";
 import { useState } from "react";
 import './CheckoutForm.css'
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
-import useAxiosSecure from "../../Custom Hooks/useAxiosSecure";
+import useAxiosSecure from "../../../Components/Custom Hooks/useAxiosSecure";
 import { AuthContext } from "../../../provider/AuthProvider";
 
 
