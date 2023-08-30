@@ -10,7 +10,7 @@ const Classes = () => {
   
     const [Classes, setClasses] = useState([])
     useEffect(() => {
-        fetch(`https://yogaease.vercel.appclasses`)
+        fetch(`http://localhost:5000/classes`)
             .then((res) => res.json())
             .then((result) => {
                 setClasses(result);
@@ -23,7 +23,7 @@ const Classes = () => {
     return (
         <div>
             <h1 className='text-center text-4xl text-cyan-700 border-b-4 border-indigo-500'>Our Ongoing Classes</h1>
-            <div className='grid gap-6 md:grid-cols-3 sm:grid-cols-2 mx-16 mt-5'>
+            <div className='grid gap-6 lg:grid-cols-3 sm:grid-cols-2 mx-16 mt-5'>
                 {
                     Classes.map((sigleClasses) =>
                     
