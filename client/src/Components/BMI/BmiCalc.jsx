@@ -32,7 +32,7 @@ function BmiCalc() {
           <span className="w-full h-full absolute bg-transparent min620:bg-[#00000063] top-0 left-0"></span>
           <div className="text-white ">
             <h2 className="text-xl font-bold text-center pt-5">
-              Let's Calculate Your <span className="text-[#FF0336]">BMI</span>
+              Let's Calculate Your <span className="text-purple-700">BMI</span>
             </h2>
             <p className="text-[16px] text-white text-center m-5">
               Easily determine your body mass index with our accurate
@@ -56,11 +56,11 @@ function BmiCalc() {
               <p className=" text-[16px] gap-40 font-medium flex items-center justify-center ">
                 <span className="">
                   Your BMI is: &nbsp;
-                  <span className="text-[#ff0336] text-xl">{bmi}</span>
+                  <span className="text-purple-700 text-xl">{bmi}</span>
                 </span>
                 <span className="">
                   Your weight is: &nbsp;
-                  <span className="text-[#ff0336] text-xl">{message}</span>
+                  <span className="text-purple-700 text-xl">{message}</span>
                 </span>
               </p>
               <div className="flex items-center justify-center text-center">
@@ -70,7 +70,7 @@ function BmiCalc() {
                 onClick={calcBmi}
                 style={{ transition: "all 0.3s" }}
                 type="submit"
-                className="text-[15px] uppercase font-bold m-10 bg-[#323232] w-40 h-10  hover:bg-[#FF0336]"
+                className="text-[15px] uppercase font-bold m-10 bg-[#323232] w-40 h-10  hover:bg-[#4b0ef1]"
               >
                 Calculate
               </button>
