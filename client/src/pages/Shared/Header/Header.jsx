@@ -37,15 +37,15 @@ const Header = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Gallery</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Schedule</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Pricing</NavLink></li>
-                        <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Blog</NavLink></li>
-                        <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
-                        <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Join Classes Instant</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Gallery</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Schedule</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Pricing</NavLink></li>
+                            <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Blog</NavLink></li>
+                            <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
+                            <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Join Classes Instant</NavLink></li>
 
                             {
                                 user ?
@@ -107,13 +107,14 @@ const Header = () => {
                                 </div>
                             </> :
                             <>
-                            <ul>
-                                <li>
+                                <ul>
+                                    <li>
+                                        <Link to='/signIn'>
+                                    <img className='w-5 h-5' src="user.png" alt="" />
+                                        </Link>
+                                    </li>
+                                </ul>
 
-                                       <Link to='/signIn'><button className=" btn-outline">Sign in</button></Link>
-                                </li>
-                            </ul>
-                             
                             </>
                     }
 
@@ -121,7 +122,7 @@ const Header = () => {
 
                 </div>
 
-              
+
             </div>
 
         </div>
