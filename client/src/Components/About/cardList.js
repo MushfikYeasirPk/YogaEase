@@ -1,5 +1,5 @@
 
-export const cardList = [
+export const  cardList = [
   {
     img: "https://cdn-icons-png.flaticon.com/512/69/69856.png" ,
     title: "Progression",

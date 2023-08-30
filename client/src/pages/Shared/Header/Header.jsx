@@ -30,7 +30,7 @@ const Header = () => {
 
         <div>
 
-            <div className="navbar fixed z-50 bg-black text-white">
+            <div className="navbar sticky z-50 bg-black text-white">
                 <div className="flex-none">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const Header = () => {
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Schedule</NavLink></li>
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Pricing</NavLink></li>
                             <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
-                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
+                            <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                             <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
                             <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Join Classes Instant</NavLink></li>
 
@@ -72,7 +72,7 @@ const Header = () => {
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Schedule</NavLink></li>
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Pricing</NavLink></li>
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
+                        <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                         <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Join Classes Instant</NavLink></li>
 

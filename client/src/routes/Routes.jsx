@@ -13,6 +13,7 @@ import MyEnrolledClasses from "../pages/Dashboard/My Enrolled Class/MyEnrolledCl
 import ManagerUsers from "../pages/Dashboard/ManagerUsers/ManagerUsers";
 import ManageClasses from "../pages/Dashboard/Manage Classes/ManageClasses";
 import Payment from "../pages/Dashboard/Payment/Payment";
+import BlogPage from "../pages/Blog/BlogPage";
 
 
 const router = createBrowserRouter([
@@ -34,10 +35,10 @@ const router = createBrowserRouter([
         path: "/register",
         element: <Register></Register>
       },
-      // {
-      //   path: "/dashboard",
-      //   element: <Dashboard></Dashboard>
-      // },
+      {
+        path: "/blog",
+        element: <BlogPage></BlogPage>
+      },
       {
         path: "/instructors",
         element: <Instructors></Instructors>
