@@ -18,7 +18,7 @@ const PopularInstructors = () => {
             </div>
             <div className='grid gap-3 lg:grid-cols-3 sm:grid-cols-2 mx-16 mt-5'>
                 {
-                    instructors.slice(0, 6).map((sigleInstructors) =>
+                    instructors.slice(0, 3).map((sigleInstructors) =>
                         <div className="box">
                             <div className="Inscard">
                                 <div className="imgBox">
