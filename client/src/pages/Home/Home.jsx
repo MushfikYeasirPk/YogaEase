@@ -5,6 +5,7 @@ import HomeCausel from '../../Components/HomeCaousel/HomeCausel';
 import AboutCarts from '../../Components/About/AboutCarts';
 import BmiCalc from '../../Components/BMI/BmiCalc'
 import WorkSpaceGalllery from '../../Components/WorkSpaceGallery/WorkSpaceGalllery';
+import NeedYogaTrainer from '../../Components/NeedYogaTrainer/NeedYogaTrainer';
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
       <BmiCalc></BmiCalc>
       <WorkSpaceGalllery></WorkSpaceGalllery>
       <PopularInstructors></PopularInstructors>
-    
+    <NeedYogaTrainer></NeedYogaTrainer>
       
 
 
