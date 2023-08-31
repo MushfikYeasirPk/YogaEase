@@ -4,20 +4,25 @@ import { useEffect } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
 import Swal from 'sweetalert2';
 import { useLocation, useNavigate } from 'react-router-dom';
+import LoadingSpinner from '../../Components/Loader/LoadingSpinner'
 import ClassCard from '../../Components/Class Card/ClassCard'
 const Classes = () => {
   
+    const [isLoading, setIsLoading] = useState(true);
     const [Classes, setClasses] = useState([])
     useEffect(() => {
         fetch(`http://localhost:5000/classes`)
             .then((res) => res.json())
             .then((result) => {
                 setClasses(result);
+                setIsLoading(false);
             });
     }, []);
     console.log(Classes);
 
-
+    if (isLoading) {
+        return <LoadingSpinner></LoadingSpinner>
+      }
    
     return (
         <div>
