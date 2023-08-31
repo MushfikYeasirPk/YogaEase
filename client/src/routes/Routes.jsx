@@ -14,6 +14,7 @@ import ManagerUsers from "../pages/Dashboard/ManagerUsers/ManagerUsers";
 import ManageClasses from "../pages/Dashboard/Manage Classes/ManageClasses";
 import Payment from "../pages/Dashboard/Payment/Payment";
 import BlogPage from "../pages/Blog/BlogPage";
+import About from "../pages/About/About";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
 
+      {
+        path: "/about",
+        element: <About></About>
+      },
       {
         path: "/signIn",
         element: <SignIn></SignIn>
