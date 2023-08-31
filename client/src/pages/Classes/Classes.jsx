@@ -22,7 +22,7 @@ const Classes = () => {
     return (
         <div>
             <h1 className='text-center text-4xl text-cyan-700 border-b-4 border-indigo-500'>Our Ongoing Classes</h1>
-            <div className='grid gap-16 lg:grid-cols-3 sm:grid-cols-2 mx-16 mt-5'>
+            <div className='grid gap-10 lg:grid-cols-3 sm:grid-cols-2 mx-6 my-10'>
                 {
                     Classes.map((sigleClasses) =>
                     
