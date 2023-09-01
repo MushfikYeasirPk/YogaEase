@@ -27,7 +27,7 @@ function BmiCalc() {
 
   return (
     <>
-      <section className="bg-slate-700">
+      <div className="" style={{ backgroundImage: 'url(https://cdn.pixabay.com/photo/2019/06/26/09/52/girl-4300034_960_720.jpg)' }}>
         <div className=" ">
           <span className="w-full h-full absolute bg-transparent min620:bg-[#00000063] top-0 left-0"></span>
           <div className="text-white ">
@@ -78,7 +78,7 @@ function BmiCalc() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
