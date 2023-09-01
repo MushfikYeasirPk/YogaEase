@@ -110,10 +110,10 @@ const Register = () => {
 
     return (
         <div className='flex items-center justify-center mt-5 mb-5'>
-            <div className="flex items-center justify-center">
-                <div className="m-auto w-96">
+            <div className="lg:flex items-center justify-center">
+                <div className="bg-slate-300 m-auto w-96 rounded-md">
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="bg-white rounded-lg px-8 py-10 mb-4">
+                    <form onSubmit={handleSubmit(onSubmit)} className=" rounded-lg px-8 mb-4">
                         <div className="mb-4">
                             <label className="block text-gray-700 font-bold mb-2" htmlFor="useremail">
                                 User Name
@@ -193,9 +193,9 @@ const Register = () => {
                         </Link>
                     </p>
                 </div>
-                <div className="text-center lg:text-left px-10">
-                    <h1 className="text-5xl font-bold">Sign up now!</h1>
-                    <p className="text-5xl font-bold">Save Toy!</p>
+                <div className=" h-[700px] w-[600px] lg:text-left p-10 ">
+                    <img className='lg:mt-20' src="sign-up.svg" alt="" />
+                    
                 </div>
             </div>
         </div>
