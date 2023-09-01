@@ -14,7 +14,7 @@ const ClassCard = ({ sigleClasses }) => {
         console.log(sigleClasses);
         if (user && user.email) {
             const Classes = { clsssigleClassesId: sigleClasses._id, instructorName: sigleClasses.instructorName, image: sigleClasses.image, price: sigleClasses.price, email: user.email, ClassName: sigleClasses.name }
-            fetch('https://yogaease.vercel.app/classes', {
+            fetch('http://localhost:5000/classes', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -46,7 +46,8 @@ const ClassCard = ({ sigleClasses }) => {
                 confirmButtonText: 'Login now!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    Navigate('/signIn', { state: { from: location } })
+console.log("log");
+                navigate('/logIn', { state: { from: location } })
                 }
             })
         }

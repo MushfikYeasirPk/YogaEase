@@ -41,7 +41,7 @@ const Header = () => {
                             <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>About</NavLink></li>
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Gallery</NavLink></li>
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Schedule</NavLink></li>
-                            <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Pricing</NavLink></li>
+                           
                             <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
                             <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                             <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
@@ -70,7 +70,7 @@ const Header = () => {
                         <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>About</NavLink></li>
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Gallery</NavLink></li>
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Schedule</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Pricing</NavLink></li>
+                        
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
                         <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                         <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
@@ -109,7 +109,7 @@ const Header = () => {
                             <>
                                 <ul>
                                     <li>
-                                        <Link to='/signIn'>
+                                        <Link to='/logIn'>
                                     <img className='w-5 h-5' src="user.png" alt="" />
                                         </Link>
                                     </li>
