@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 
 
 const Register = () => {
-    const navigate = useNavigate();
+    const Navigate = useNavigate();
     const { registerUser, displayURl } = useContext(AuthContext);
     const auth = getAuth(app)
     // const [displayname, setDisplayname] = useState("");
@@ -56,7 +56,7 @@ const Register = () => {
                 .then((userCredential) => {
                     const saveUser = { name: data.name, email: data.email }
                            console.log(saveUser);
-                        fetch('https://yogaease.vercel.appusers', {
+                        fetch('http://localhost:5000/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'
@@ -74,7 +74,7 @@ const Register = () => {
                                         showConfirmButton: false,
                                         timer: 1500
                                     });
-                                    navigate('/');
+                                    Navigate('/');
                                 }
                             })
                     const user = userCredential.user;
