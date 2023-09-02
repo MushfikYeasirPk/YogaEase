@@ -10,11 +10,7 @@ const PopularClasses = () => {
             <div className='grid gap-6 md:grid-cols-3 sm:grid-cols-2 mx-16 mt-5'>
                 {
                     PopClasses.slice(0, 6).map((SingleClass) =>
-                        // <div  >
-                        //     <figure><img className='h-[300px] w-[500px]' src={SingleClass.image} alt="Shoes" /></figure>
-
-                        // </div >
-
+                       
                         <div className="box" key={SingleClass._id}>
                             <div className="Inscard">
                                 <div className="imgBox">
