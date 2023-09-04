@@ -1,13 +1,14 @@
 import React from 'react'
+import AnimatedTitle from '../AnimatedTitle/AnimatedTitle'
 
 function WorkSpaceGalllery() {
   return (
     <>
-      <div className="flex flex-col text-center relative items-center my-5 ">
-        <p className="text-black relative z-10 text-[15px] uppercase font-bold mb-10">
-          GYMAT GALLERY
-        </p>
-
+      
+      <div className='bg-slate-900 mt-10'>
+            <AnimatedTitle title="| Yogarian's Gallery"></AnimatedTitle>
+            </div>
+<div className="flex flex-col relative items-center my-5 ">
         <h2 className="text-[3.4rem] font-bold mb-4">
           Our Workplace Gallery
         </h2>
