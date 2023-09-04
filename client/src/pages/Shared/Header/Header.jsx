@@ -45,7 +45,7 @@ const Header = () => {
                             <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
                             <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                             <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
-                            <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Join Classes Instant</NavLink></li>
+                            
 
                             {
                                 user ?
@@ -74,7 +74,7 @@ const Header = () => {
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Classes</NavLink></li>
                         <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Blog</NavLink></li>
                         <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Instructors</NavLink></li>
-                        <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-purple-700' : 'default')}>Join Classes Instant</NavLink></li>
+                        
 
 
                     </ul>
