@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import app from '../../firebase/Firebase.init';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, signInWithEmailAndPassword } from "firebase/auth";
 import { Link, useLocation, redirect, Navigate, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import AOS from 'aos';
 
-
+import 'aos/dist/aos.css'
 const SignIn = () => {
+    useEffect(() => {  
+        AOS.init();
+      });
     const [success, setSuccess] = useState('')
     const location = useLocation()
     const navigate = useNavigate()
@@ -77,9 +81,9 @@ const SignIn = () => {
 
 
     return (
-        <div className='flex items-center justify-center'>
-            <div className="flex h-screen items-center">
-                <div className="m-auto w-96">
+        <div className='lg:flex md:flex items-center justify-center'>
+            <div className="lg:flex md:flex h-screen items-center">
+                <div data-aos="fade-right" data-aos-duration="2000" className="m-auto w-96">
 
                     <form onSubmit={handleSubmit(onSubmit)} className="bg-slate-300 rounded-lg px-8 py-10 mb-4">
                         <div className="mb-4">
@@ -147,7 +151,7 @@ const SignIn = () => {
                     }
 
                 </div>
-                <div className=" h-[700px] w-[600px] lg:text-left p-10 ">
+                <div data-aos="fade-left" data-aos-duration="3000" className=" h-[700px] w-[600px] lg:text-left p-10 ">
                     <img className='lg:mt-20' src="signInSignUp.svg" alt="" />
 
                 </div>
