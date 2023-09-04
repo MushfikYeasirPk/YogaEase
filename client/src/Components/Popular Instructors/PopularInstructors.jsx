@@ -3,13 +3,14 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import UseInstructors from '../Custom Hooks/UseInstructors';
 import './PopularInstrcutors.css'
+import AnimatedTitle from '../AnimatedTitle/AnimatedTitle';
 const PopularInstructors = () => {
     const [instructors] = UseInstructors();
     // console.log(instructors);
     return (
         <div>
-            <div className='bg-slate-900'>
-                <h1 className='py-5 text-center text-4xl font-bold border-b-4 border-t-4 border-indigo-500 text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400'>Our Popular Coaches</h1>
+           <div className='bg-slate-900'>
+            <AnimatedTitle title="| Popular Choches"></AnimatedTitle>
             </div>
             <div className='mt-10'>
                 <h1 className='text-black text-center uppercase text-3xl font-semibold'>Team Of Expert Coaches</h1>
