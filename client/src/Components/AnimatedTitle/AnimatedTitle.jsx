@@ -9,7 +9,7 @@ function AnimatedTitle({ title }) {
         const timeoutId = setTimeout(() => {
           setDisplayedTitle(prevTitle => prevTitle + title[currentIndex]);
           setCurrentIndex(prevIndex => prevIndex + 1);
-        }, 100); // You can adjust the delay between each letter here
+        }, 300); // You can adjust the delay between each letter here
   
         return () => clearTimeout(timeoutId);
       }
