@@ -6,6 +6,7 @@ import AboutCarts from '../../Components/About/AboutCarts';
 import BmiCalc from '../../Components/BMI/BmiCalc'
 import WorkSpaceGalllery from '../../Components/WorkSpaceGallery/WorkSpaceGalllery';
 import NeedYogaTrainer from '../../Components/NeedYogaTrainer/NeedYogaTrainer';
+import GetLatestNews from '../../Components/Get Latest News/GetLatestNews';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <WorkSpaceGalllery></WorkSpaceGalllery>
       <PopularInstructors></PopularInstructors>
     <NeedYogaTrainer></NeedYogaTrainer>
+    <GetLatestNews></GetLatestNews>
       
 
 
