@@ -1,17 +1,20 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Aos from 'aos'
 function GetLatestNews() {
+    useEffect(()=>{
+        Aos.init()
+    })
     return (
         <>
             <div className="lg:flex   items-center justify-center gap-5">
-                <div>
+                <div className='' data-aos="fade-right">
                     <h2 className="text-2xl font-bold text-gray-900">
                         Get the latest news!
                     </h2>
                 </div>
 
 
-                    <div className="lg:flex gap-8">
+                    <div className="lg:flex gap-8" data-aos="fade-left">
                         <div>
                             <input type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs" />
                         </div>
