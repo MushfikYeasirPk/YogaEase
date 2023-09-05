@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
+import Aos from 'aos'
 function NeedYogaTrainer() {
+    useEffect(()=>{
+        Aos.init()
+    })
     return (
         <>
-            <section className="bg-black w-full h-auto mb-10 "style={{ backgroundImage: 'url(https://cdn.pixabay.com/photo/2016/09/12/16/55/girl-1665173_960_720.jpg)' }}>
-                <div className=" text-white flex ml-24 py-10 flex-col justify-start items-start">
+            <section className="bg-black w-full h-auto mb-10 "style={{ backgroundImage: 'url(https://cdn.pixabay.com/photo/2016/09/12/16/55/girl-1665173_960_720.jpg)' }} >
+                <div className=" text-white flex ml-24 py-10 flex-col justify-start items-start" data-aos="fade-right" >
                     <div>
                         <h2 className="text-[36px] font-bold">Need a Yoga Trainer?</h2>
                         <h3 className="text-[28px] font-bold ">
