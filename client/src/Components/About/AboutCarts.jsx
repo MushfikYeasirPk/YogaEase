@@ -1,12 +1,16 @@
+import { useEffect } from "react";
 import { cardList } from "./cardList";
-
+import AOS from 'aos';
 function AboutCarts() {
+  useEffect(() => {  
+    AOS.init();
+  });
   return (
     <>
     <div className="mx-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">
 
       {cardList.map((card, id) => (
-        <div
+        <div data-aos="fade-right" data-aos-duration="4000"
           key={id}
           style={{
             backgroundImage: 'url(https://c8.alamy.com/comp/PCYWYH/yoga-logo-or-label-fitness-meditation-symbol-vector-illustration-PCYWYH.jpg)',
